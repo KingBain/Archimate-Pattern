@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>EUD </title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>EUD </b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+											    <td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element" class="i18n-elementtype-Device"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5a4b8a8e-a4e3-491a-8731-115de20acbc8.html" target="element"> Data at Rest  </a> </td>
+											    <td> <a href="../elements/5a4b8a8e-a4e3-491a-8731-115de20acbc8.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+											</tr>
+
+									        <tr>
+									           <td> <a href="../objects/78513e81-f175-4e7c-99ea-f8fb535f35f5.html" target="element"> Application Services </a> </td>
+									           <td> <a href="../objects/78513e81-f175-4e7c-99ea-f8fb535f35f5.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/c1b5001d-63b3-447f-9702-cca3370a2532.html" target="element"> EUD Encryption Services </a> </td>
+													    <td> <a href="../elements/c1b5001d-63b3-447f-9702-cca3370a2532.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/1f22cc18-416a-42c9-be09-b108105a87ed.html" target="element"> EUD Security Mgmt. </a> </td>
+													    <td> <a href="../elements/1f22cc18-416a-42c9-be09-b108105a87ed.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/37cf4b52-9402-42b6-b0ef-4f0aa0cc2bab.html" target="element"> Network Access Mgmt. </a> </td>
+													    <td> <a href="../elements/37cf4b52-9402-42b6-b0ef-4f0aa0cc2bab.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/45c91204-cceb-42fb-a0b2-f44049927f5a.html" target="element"> User Access Mgmt. </a> </td>
+													    <td> <a href="../elements/45c91204-cceb-42fb-a0b2-f44049927f5a.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/ddfdd062-38ef-4417-861e-79df40cc563b.html" target="element"> EUD Credential </a> </td>
+													    <td> <a href="../elements/ddfdd062-38ef-4417-861e-79df40cc563b.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/caa4291b-979c-42ee-a9a0-566d2a72edba.html" target="element"> App Execution Environment </a> </td>
+													    <td> <a href="../elements/caa4291b-979c-42ee-a9a0-566d2a72edba.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/70bfca7b-ae3f-4429-a7b6-01be4dc8b7fb.html" target="element"> Device Mgmt. </a> </td>
+													    <td> <a href="../elements/70bfca7b-ae3f-4429-a7b6-01be4dc8b7fb.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/04854d7b-273b-4cfc-a16b-e9b71a0a90fb.html" target="element"> App Access Mgmt. </a> </td>
+													    <td> <a href="../elements/04854d7b-273b-4cfc-a16b-e9b71a0a90fb.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/63629067-bd26-4ca6-beac-fee5bb0aee42.html" target="element"> Root of Trust </a> </td>
+													    <td> <a href="../elements/63629067-bd26-4ca6-beac-fee5bb0aee42.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+											
+									        <tr>
+									           <td> <a href="../objects/4d3ef544-2f11-4845-a43d-7b0e7fcb8e69.html" target="element">  </a> </td>
+									           <td> <a href="../objects/4d3ef544-2f11-4845-a43d-7b0e7fcb8e69.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/595868d8-fb6e-4173-8b46-2f0062b4d6f7.html" target="element"> Accessing </a> </td>
+																		<td> <a href="../elements/595868d8-fb6e-4173-8b46-2f0062b4d6f7.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																		<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																		<td> <a href="../elements/5a4b8a8e-a4e3-491a-8731-115de20acbc8.html" target="element"> Data at Rest  </a> </td>
+																	</tr>
+
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/f3afb821-7f04-4fe4-94c9-96e32c9883ab.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/f3afb821-7f04-4fe4-94c9-96e32c9883ab.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/c1b5001d-63b3-447f-9702-cca3370a2532.html" target="element"> EUD Encryption Services </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/bf88b405-5f1b-49ff-a5b0-6fea655d20a6.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/bf88b405-5f1b-49ff-a5b0-6fea655d20a6.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/1f22cc18-416a-42c9-be09-b108105a87ed.html" target="element"> EUD Security Mgmt. </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/54684c80-5d6c-4b8c-8647-4d601f9d1c3a.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/54684c80-5d6c-4b8c-8647-4d601f9d1c3a.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/37cf4b52-9402-42b6-b0ef-4f0aa0cc2bab.html" target="element"> Network Access Mgmt. </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/b0bc7db5-ccda-42dd-8862-88f6a6fd02dc.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/b0bc7db5-ccda-42dd-8862-88f6a6fd02dc.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/45c91204-cceb-42fb-a0b2-f44049927f5a.html" target="element"> User Access Mgmt. </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/924f3928-c09c-413c-a722-59a7eb9bb2e8.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/924f3928-c09c-413c-a722-59a7eb9bb2e8.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/ddfdd062-38ef-4417-861e-79df40cc563b.html" target="element"> EUD Credential </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/8cb36243-dcf5-43b4-b86e-100f782d1550.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/8cb36243-dcf5-43b4-b86e-100f782d1550.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/caa4291b-979c-42ee-a9a0-566d2a72edba.html" target="element"> App Execution Environment </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/77fb8e48-4f9a-455a-a51e-ae1a67675f54.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/77fb8e48-4f9a-455a-a51e-ae1a67675f54.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/70bfca7b-ae3f-4429-a7b6-01be4dc8b7fb.html" target="element"> Device Mgmt. </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/067c0a1e-3dc6-4a92-9ceb-03c4715404de.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/067c0a1e-3dc6-4a92-9ceb-03c4715404de.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/04854d7b-273b-4cfc-a16b-e9b71a0a90fb.html" target="element"> App Access Mgmt. </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/56beac32-6417-4460-9395-b1cd07384db0.html" target="element"> Serving </a> </td>
+																				<td> <a href="../elements/56beac32-6417-4460-9395-b1cd07384db0.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/63629067-bd26-4ca6-beac-fee5bb0aee42.html" target="element"> Root of Trust </a> </td>
+																				<td> <a href="../elements/699ac796-7c21-4959-90c3-4603f7c6c46d.html" target="element"> End User Device  </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
